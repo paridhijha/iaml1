@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.LinearRegression -S 1 -C -R 1.0E-8
+Relation:     train_auto_PartB_numeric-weka.filters.unsupervised.attribute.Remove-R12
+Instances:    159
+Attributes:   15
+              normalized-losses
+              wheel-base
+              length
+              width
+              height
+              engine-size
+              bore
+              stroke
+              compression-ratio
+              engine-power
+              peak-rpm
+              highway-mpg
+              mean-effective-pressure
+              torque
+              price
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+price =
+
+     -1.9918 * normalized-losses +
+      9.0116 * wheel-base +
+     51.3246 * length +
+    768.9685 * width +
+    232.567  * height +
+    202.671  * engine-size +
+   -276.7783 * bore +
+  -1222.6236 * stroke +
+    234.4395 * compression-ratio +
+     -0.0068 * engine-power +
+      0.7854 * peak-rpm +
+   -262.552  * highway-mpg +
+    -21.2237 * mean-effective-pressure +
+      0.0243 * torque +
+ -55162.5179
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.7311
+Mean absolute error                   3112.7723
+Root mean squared error               4824.966 
+Relative absolute error                 63.0847 %
+Root relative squared error             71.3451 %
+Total Number of Instances              159     
+
